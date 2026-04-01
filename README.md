@@ -1,1 +1,1 @@
-# holbertonschool-binary_trees
+this folder contains work related to binary trees
