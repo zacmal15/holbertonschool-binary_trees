@@ -28,7 +28,7 @@ static size_t tree_depth(const binary_tree_t *tree)
  *
  * Return: 1 if subtree is perfect, otherwise 0
  */
-static int is_perfect(const binarytree_t *tree, size_t depth, size_t level)
+static int is_perfect(const binary_tree_t *tree, size_t depth, size_t level)
 {
 	/* if node is a leaf, check if it is at the correct depth */
 	if (tree->left == NULL && tree->right == NULL)
